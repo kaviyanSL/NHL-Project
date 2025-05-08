@@ -1,0 +1,43 @@
+# NHL Project
+
+This repository contains Jupyter notebooks with debugging exercises related to machine learning and data analysis for an NHL University project.
+
+## Prerequisites
+
+- Python 3.6 or higher
+- pip (Python package installer)
+
+## Setup Instructions
+
+### Creating and Activating a Virtual Environment
+
+#### Windows/macOS/Linux
+
+```bash
+
+# windows
+
+# Navigate to the project directory
+cd D:\python_projects\NHL Project
+
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+venv\Scripts\activate
+
+#macOS/Linux
+
+# Navigate to the project directory
+cd /path/to/NHL Project
+
+# Create a virtual environment
+python3 -m venv venv
+
+# Activate the virtual environment
+source venv/bin/activate
+
+# Install dependencies from requirements.txt
+pip install -r requirements.txt
+
+# Finally use venv as Jupyter kernel
